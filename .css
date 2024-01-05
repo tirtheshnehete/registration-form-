@@ -1,0 +1,104 @@
+*body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background {
+    width: 1200px;
+    height: 700px;
+    color: black;
+    border: 1px solid lightgrey;
+    margin: 100px auto;
+    position: relative;
+    box-shadow: 3px 3px 15px rgb(49, 51, 52);
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+
+    position: absolute;
+    top: 5%;
+    height: 700px;
+    width: 500px;
+    border: none;
+    padding: 15px;
+    padding-left: 90px;
+}
+
+.box h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box input {
+    background-color: rgba(255, 255, 255, 0.793);
+    margin: 10px;
+    width: 70%;
+    height: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.box p {
+    font-size: 17px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.box button {
+    background-color: rgba(36, 107, 238, 0.93);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 18px;
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    right: 20%;
+    margin-left: 130px;
+}
+
+.pass {
+    display: flex;
+}
+
+.pass p {
+    margin-left: -40px;
+    margin-top: 28px;
+    color: black;
+}
+
+/* responsive styling */
+@media screen and (max-width:300px) {
+
+    .background {
+        width: 500px;
+        height: 750px;
+    }
+    .box {
+        width: 300px;
+        height: 600px;
+    }
+    .box input,
+    p {
+        margin-left: -10%;
+    }
+    .box h1 {
+        margin-left: -25%;
+    }
+    .box button {
+        margin-left: -10%;
+    }
+
+}
